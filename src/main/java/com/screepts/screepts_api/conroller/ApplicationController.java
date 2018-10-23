@@ -12,7 +12,7 @@ public class ApplicationController {
     @RequestMapping(value = "/init", method = RequestMethod.GET)
     public ResponseDto initRequest(){
 
-        return new ResponseDto("Hello, Screepts!");
+        return new ResponseDto("Hello, Screeps!");
     }
 
 }
